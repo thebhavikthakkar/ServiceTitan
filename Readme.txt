@@ -1,6 +1,6 @@
 Please follow the below steps to run this project
 1. Create the database on your server.
-2. From DBScripts, Please execute each script in the newly created database.
+2. From Main folder, Please execute the initialScript.sql in the newly created database.
 3. From the ServiceTitan_App, App.config file, connection string section, Please update the connection string with the newly updated database.
 As a request please do not remove the connection string and add a new one, just update the parameter value as required.
 4. From ServiceTitan.Data, double click on ServiceTitanModel.edmx.
