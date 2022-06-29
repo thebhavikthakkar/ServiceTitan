@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17984fd7a9224b6b97319bd4d2799a78" Name="Diagram1">
+        <EntityTypeShape EntityType="RyanStomelModel.ClientMaster" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RyanStomelModel.ServiceTitanResponse" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RyanStomelModel.SyncHistory" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="RyanStomelModel.FK__ServiceTi__Clien__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="RyanStomelModel.FK__ServiceTi__syncI__72C60C4A" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="RyanStomelModel.ErrorHandler" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="RyanStomelModel.ServiceStatusHistory" Width="1.5" PointX="3.375" PointY="7.75" />
+        <EntityTypeShape EntityType="RyanStomelModel.CapManagement" Width="1.5" PointX="3" PointY="3.625" />
+        <AssociationConnector Association="RyanStomelModel.FK__CapManage__Clien__70DDC3D8" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

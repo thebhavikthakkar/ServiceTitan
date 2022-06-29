@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTitan.Data", "ServiceTitan.Data\ServiceTitan.Data.csproj", "{BD731AD4-353F-48F5-970E-957A60EEF9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTitan_App", "ServiceTitan_App\ServiceTitan_App.csproj", "{E53E1A07-0849-4EF2-A78E-85000BA870DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTitan.Core", "ServiceTitan.Core\ServiceTitan.Core.csproj", "{C226823F-F1DF-4D52-8CFB-A14E5C20CAD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{973D4113-EE3A-460E-9E64-01BD97667B5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Users\TechExtensor\OneDrive\Desktop\New folder\InitialScript.sql = ..\..\..\..\Users\TechExtensor\OneDrive\Desktop\New folder\InitialScript.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{D06C6A0D-24FA-4BFF-9C92-BC47924A5843}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD731AD4-353F-48F5-970E-957A60EEF9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD731AD4-353F-48F5-970E-957A60EEF9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD731AD4-353F-48F5-970E-957A60EEF9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD731AD4-353F-48F5-970E-957A60EEF9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53E1A07-0849-4EF2-A78E-85000BA870DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53E1A07-0849-4EF2-A78E-85000BA870DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53E1A07-0849-4EF2-A78E-85000BA870DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53E1A07-0849-4EF2-A78E-85000BA870DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C226823F-F1DF-4D52-8CFB-A14E5C20CAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C226823F-F1DF-4D52-8CFB-A14E5C20CAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C226823F-F1DF-4D52-8CFB-A14E5C20CAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C226823F-F1DF-4D52-8CFB-A14E5C20CAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B421917B-8834-4915-9795-835051C77094}
+	EndGlobalSection
+EndGlobal
